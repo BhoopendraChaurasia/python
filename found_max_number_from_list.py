@@ -4,3 +4,7 @@ for i in range(len(list)):
     if max<list[i]:
         max=list[i]
 print('Maximum number is',max)
+print()
+print('Find Maximum number using sort function')
+list.sort()
+print('Min number is:',*list[:len(list)+1:1])
